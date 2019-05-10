@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS shopping_list(
     item_name TEXT NOT NULL,
     price decimal (12,2) NOT NULL,
     date_added TIMESTAMP DEFAULT now() NOT NULL,
-    checked BOOLEAN SET default FALSE,
+    checked BOOLEAN default FALSE,
     category grocery NOT NULL
 );
 
